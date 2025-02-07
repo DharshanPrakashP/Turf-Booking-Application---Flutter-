@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1800 800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Home Screen -->
+    <g transform="translate(40,40)">
+        <!-- Phone Frame -->
+        <rect x="0" y="0" width="320" height="640" rx="20" fill="#fff" stroke="#333" stroke-width="2"/>
+        <!-- Status Bar -->
+        <rect x="0" y="0" width="320" height="40" fill="#f8f8f8" stroke="#ddd"/>
+        <!-- Search Bar -->
+        <rect x="20" y="60" width="280" height="45" rx="22" fill="#f5f5f5" stroke="#ddd"/>
+        <circle cx="45" cy="82" r="10" fill="none" stroke="#666"/>
+        <!-- Filter Section -->
+        <rect x="20" y="120" width="80" height="30" rx="15" fill="#f0f0f0" stroke="#ddd"/>
+        <rect x="110" y="120" width="80" height="30" rx="15" fill="#f0f0f0" stroke="#ddd"/>
+        <rect x="200" y="120" width="80" height="30" rx="15" fill="#f0f0f0" stroke="#ddd"/>
+        <!-- Turf Cards -->
+        <rect x="20" y="170" width="280" height="140" rx="10" fill="#fff" stroke="#ddd"/>
+        <rect x="20" y="330" width="280" height="140" rx="10" fill="#fff" stroke="#ddd"/>
+        <rect x="20" y="490" width="280" height="140" rx="10" fill="#fff" stroke="#ddd"/>
+        <!-- Bottom Nav -->
+        <rect x="0" y="580" width="320" height="60" fill="#f8f8f8" stroke="#ddd"/>
+        <text x="160" y="-10" font-family="Arial" text-anchor="middle">Home Screen</text>
+    </g>
+
+    <!-- Turf Details -->
+    <g transform="translate(400,40)">
+        <rect x="0" y="0" width="320" height="640" rx="20" fill="#fff" stroke="#333" stroke-width="2"/>
+        <!-- Image Gallery -->
+        <rect x="0" y="0" width="320" height="240" fill="#f5f5f5" stroke="#ddd"/>
+        <!-- Turf Info -->
+        <rect x="20" y="260" width="280" height="100" fill="#fff" stroke="#ddd"/>
+        <!-- Available Slots -->
+        <rect x="20" y="380" width="70" height="40" rx="5" fill="#f8f8f8" stroke="#ddd"/>
+        <rect x="100" y="380" width="70" height="40" rx="5" fill="#f8f8f8" stroke="#ddd"/>
+        <rect x="180" y="380" width="70" height="40" rx="5" fill="#f8f8f8" stroke="#ddd"/>
+        <!-- Book Button -->
+        <rect x="20" y="560" width="280" height="50" rx="25" fill="#000"/>
+        <text x="160" y="-10" font-family="Arial" text-anchor="middle">Turf Details</text>
+    </g>
+
+    <!-- Booking Screen -->
+    <g transform="translate(760,40)">
+        <rect x="0" y="0" width="320" height="640" rx="20" fill="#fff" stroke="#333" stroke-width="2"/>
+        <!-- Calendar -->
+        <rect x="20" y="60" width="280" height="200" fill="#f8f8f8" stroke="#ddd"/>
+        <!-- Time Slots -->
+        <rect x="20" y="280" width="280" height="120" fill="#f8f8f8" stroke="#ddd"/>
+        <!-- Payment Options -->
+        <rect x="20" y="420" width="280" height="80" rx="10" fill="#f8f8f8" stroke="#ddd"/>
+        <!-- Confirm Button -->
+        <rect x="20" y="560" width="280" height="50" rx="25" fill="#000"/>
+        <text x="160" y="-10" font-family="Arial" text-anchor="middle">Booking Screen</text>
+    </g>
+
+    <!-- Payment Screen -->
+    <g transform="translate(1120,40)">
+        <rect x="0" y="0" width="320" height="640" rx="20" fill="#fff" stroke="#333" stroke-width="2"/>
+        <!-- Payment Summary -->
+        <rect x="20" y="60" width="280" height="120" rx="10" fill="#f8f8f8" stroke="#ddd"/>
+        <!-- Payment Methods -->
+        <rect x="20" y="200" width="280" height="60" rx="10" fill="#fff" stroke="#ddd"/>
+        <rect x="20" y="270" width="280" height="60" rx="10" fill="#fff" stroke="#ddd"/>
+        <!-- Promo Code -->
+        <rect x="20" y="350" width="280" height="50" rx="25" fill="#f5f5f5" stroke="#ddd"/>
+        <!-- Pay Button -->
+        <rect x="20" y="560" width="280" height="50" rx="25" fill="#000"/>
+        <text x="160" y="-10" font-family="Arial" text-anchor="middle">Payment Screen</text>
+    </g>
+
+    <!-- Confirmation Screen -->
+    <g transform="translate(1480,40)">
+        <rect x="0" y="0" width="320" height="640" rx="20" fill="#fff" stroke="#333" stroke-width="2"/>
+        <!-- Success Icon -->
+        <circle cx="160" cy="160" r="50" fill="#f8f8f8" stroke="#ddd"/>
+        <!-- Booking Details -->
+        <rect x="40" y="240" width="240" height="200" rx="10" fill="#f8f8f8" stroke="#ddd"/>
+        <!-- Action Buttons -->
+        <rect x="20" y="480" width="280" height="50" rx="25" fill="#f5f5f5" stroke="#ddd"/>
+        <rect x="20" y="560" width="280" height="50" rx="25" fill="#000"/>
+        <text x="160" y="-10" font-family="Arial" text-anchor="middle">Confirmation Screen</text>
+    </g>
+
+    <!-- Flow Arrows -->
+    <g stroke="#666" stroke-width="2" fill="none">
+        <path d="M360,320 L400,320"/>
+        <path d="M720,320 L760,320"/>
+        <path d="M1080,320 L1120,320"/>
+        <path d="M1440,320 L1480,320"/>
+    </g>
+</svg>
